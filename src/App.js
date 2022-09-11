@@ -30,7 +30,6 @@ function App() {
         <Route path='/services' element={<Navigate to='/#/services'/>}/>
         <Route path='/location' element={<Navigate to='/#/location'/>}/>
         <Route path='/contact' element={<Navigate to='/#/contact'/>}/>
-        <Route path='*' element={<h1>404 NO FOUND</h1>} />
       </Routes>
     </BrowserRouter>
     </>

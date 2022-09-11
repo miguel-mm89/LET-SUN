@@ -26,6 +26,7 @@ const Home = () => {
                         <FormattedMessage id="home.index1" />
                     </p>
                 </TextContainer>
+                
             </PrincipalContainer>
             <HomeGallery/>
         </main>
